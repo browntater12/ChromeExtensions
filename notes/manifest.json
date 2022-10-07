@@ -4,10 +4,7 @@
     "manifest_version": 3,
     "action": {
       "default_title": "Add highlighted string to notes",
-      "default_popup": "popup.html"
+      "default_popup" : "popup.html"
     },
-    "permissions": ["scripting","activeTab"],
-    "background": {
-      "service_worker": "scripting.js"
-    }
-}
+    "permissions": ["tabs","scripting","activeTab", "bookmarks"]
+  }
