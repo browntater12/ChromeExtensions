@@ -10,7 +10,9 @@ var website = {
 }
 
 if(website.text) {
-    alert(website.url + '\n\n' +website.text);
+    //alert(website.url + '\n\n' +website.text);
+    document.getElementById('title').innerHTML = "Add to notes";
+    
 }
 else {
     alert("Nothing highlighted not saved for later.")
